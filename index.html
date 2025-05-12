@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
-    <title>Aslam Portfolio</title>
+    <link rel="icon" 2  href="images/images.jpg" type="image/x-icon" />
+    <title>Aslam Ghifar</title>
 </head>
 <body>
     <header>
         <div class="main-container">
             <div class="nav">
                 <div class="logo">
-                    <a href="/">AG</a>
+                    <a href="#hero">AG</a>
                 </div>
 
                 <nav>
                     <ul>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolios">Portfolio</a></li>
+                        <li><a href="#portfolios">Project</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li>
@@ -51,7 +52,7 @@
                     Have any project, idea, or problems?
                 </p>
                 <p>
-                   <a class="hero-name-link" href="#contact"> Let's work together! </a>
+                   <a class="hero-name-link" href="#contact"> Let's have a chat! </a>
                 </p>
             </div>
 
@@ -145,7 +146,7 @@
                     <div class="portfolio-info">
                         <div class="portfolio-title">
                             <h4>Sabwell Website</h4>
-                            <a href="/" class="portfolio-link">
+                            <a href="#hero" class="portfolio-link">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -181,7 +182,7 @@
                     <div class="portfolio-info">
                         <div class="portfolio-title">
                             <h4>Admin Dashboard</h4>
-                            <a href="/" class="portfolio-link">
+                            <a href="#hero" class="portfolio-link">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -214,7 +215,7 @@
                     <div class="portfolio-info">
                         <div class="portfolio-title">
                             <h4>Village App</h4>
-                            <a href="/" class="portfolio-link">
+                            <a href="#hero" class="portfolio-link">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -241,7 +242,7 @@
     </section>
     <section id="skills">
       <div class="skills main-container">
-        <h3 class="pre-title">Learning Path</h3>
+        <h3 class="pre-title">My Journey</h3>
         <h1 class="section-title">Skills & Education</h1>
 
         <div class="skills-grid">
@@ -252,8 +253,8 @@
               </div>
               <div class="education-info">
                 <h4 class="education-title">IDN Polytechnic</h4>
-                <p>B.A.Sc - Software Engineering</p>
-                <h4 class="education-years">July 2024</h4>
+                <p>Bachelor's Degree - Software Engineering</p>
+                <h4 class="education-years">July 2024 - Now</h4>
               </div>
             </div>
 
@@ -272,9 +273,9 @@
               <ul>
                 <li>Java</li>
                 <li>MySQL</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Tailwind CSS</li>
+                <li>Php</li>
+                <li>Dart</li>
+                <li>React JS</li>
               </ul>
 
               <ul>
@@ -292,29 +293,30 @@
       <div class="contact main-container">
         <div class="contact-left">
           <form
-            action="https://formspree.io/f/xvgaqdqw"
-            method="POST"
-            class="contact-form"
-          >
-            <div>
-              <input type="text" placeholder="Name" name="name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" name="email" />
-            </div>
-            <div>
+          action="https://formspree.io/f/xvgaqdqw"
+          method="POST"
+          class="contact-form"
+      >
+          <div>
+              <input type="text" placeholder="Name" name="name" required />
+          </div>
+          <div>
+              <input type="email" placeholder="Email" name="email" required />
+          </div>
+          <div>
               <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-                placeholder="Message"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                  required
               ></textarea>
-            </div>
-            <div>
+          </div>
+          <div>
               <button class="btn-submit">Send Message</button>
-            </div>
-          </form>
+          </div>
+      </form>
         </div>
 
         <div class="contact-right">
