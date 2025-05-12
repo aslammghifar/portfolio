@@ -424,7 +424,22 @@
                   navLinks.forEach(link => {
                     link.addEventListener("click", setActiveLink);
                   });
+            const form = document.querySelector(".contact-form");
+  const emailInput = form.querySelector('input[name="email"]');
+
+  form.addEventListener("submit", function (e) {
+    const emailValue = emailInput.value;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailRegex.test(emailValue)) {
+      e.preventDefault();
+      alert("Please enter a valid email address.");
+      emailInput.focus();
+    }
+  });
                 </script>
+    
+
             
               </body>
             </html>
